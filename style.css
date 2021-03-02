@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    font-size: 2vw;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    border: 5px solid white;
+    height: 15vw;
+    width: 15vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    font-size: 1vw;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.block{
+    border: 1px solid red;
+    background-color: white;
+    height: 2vw;
+    width: 2vw;
+
+}
+
+.one {
+    width: 2vw;
+}
+.two {
+    width: 4vw;
+}
+.three {
+    width: 6vw;
+}
+.four {
+    width: 8vw;
+}
+.five {
+    width: 10vw;
+}

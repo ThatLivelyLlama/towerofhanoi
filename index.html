@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tower of Hanoi</title>
+</head>
+<body>
+    <header>
+        <h1>TOWER OF HADOI</h1>
+        <div class="stats">
+        <h2>Wins: <span>0</span></h2>
+        <h2>Moves: <span>0</span></h2>
+        </div>
+    </header>
+    <main>
+        <div class="square left">
+            <div class="block one" id="one" data-size="1" data-location="0"></div>
+            <div class="block two" id="two" data-size="2" data-location="0"></div>
+            <div class="block three" id="three" data-size="3" data-location="0"></div>
+            <div class="block four" id="four" data-size="4" data-location="0"></div>
+            <div class="block five" id="five" data-size="5" data-location="0"></div>
+        </div>
+        <div class="square middle"></div>
+        <div class="square right"></div>
+    </main>
+    <footer>
+        <button id="restart">RESTART</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
