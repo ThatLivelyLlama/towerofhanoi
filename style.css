@@ -22,6 +22,7 @@ main {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1vw;
@@ -30,7 +31,7 @@ footer {
 
 .stats {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-size: 1vw;
 }
